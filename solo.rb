@@ -1,1 +1,1 @@
-cookbook_path ['./site-cookbooks']
+cookbook_path ["/home/vagrant/CTFW/site-cookbooks"]
