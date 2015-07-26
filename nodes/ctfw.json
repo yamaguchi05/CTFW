@@ -1,6 +1,9 @@
 {
   "run_list": [
-   "recipe[apache]"
+   "recipe[apache]",
+   "recipe[php56]",
+   "recipe[samba]",
+   "recipe[etc]"
   ],
   "automatic": {
     "ipaddress": "ctfw"
