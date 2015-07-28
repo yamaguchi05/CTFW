@@ -21,3 +21,10 @@ Template "/etc/httpd/conf/httpd.conf" do
     group "root"
     mode 0644
 end
+
+directory "/var/www/html" do
+    owner  'vagrant'
+    group  'vagrant'
+    mode 0777
+    action :create
+end
