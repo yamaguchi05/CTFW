@@ -12,7 +12,8 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "//N_MARUYAMA-PC/share/package.box"
+  config.vm.box = "chef/centos-7.0"
+  # config.vm.box = "//N_MARUYAMA-PC/share/package.box"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
