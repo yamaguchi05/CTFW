@@ -9,3 +9,7 @@
 package "vim" do
     action :install
 end
+
+service "httpd" do
+    action [:enable, :reload]
+end
