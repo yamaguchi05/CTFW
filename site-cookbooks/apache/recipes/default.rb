@@ -15,13 +15,6 @@ service "httpd" do
     supports :reload => true
 end
 
-Template "/etc/httpd/conf/httpd.conf" do
-    source "httpd.conf.erb"
-    owner "root"
-    group "root"
-    mode 0644
-end
-
 directory "/var/www/html" do
     owner  'vagrant'
     group  'vagrant'
