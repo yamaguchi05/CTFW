@@ -14,6 +14,7 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "chef/centos-7.0"
   # config.vm.box = "//N_MARUYAMA-PC/share/package.box"
+  # config.vm.box = "//PC64027-7010/share/package.box"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
