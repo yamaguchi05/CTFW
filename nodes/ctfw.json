@@ -6,6 +6,6 @@
    "recipe[etc]"
   ],
   "automatic": {
-    "ipaddress": "ctfw"
+    "ipaddress": "CTFW"
   }
 }
