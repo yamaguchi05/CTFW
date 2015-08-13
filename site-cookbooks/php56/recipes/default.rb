@@ -26,3 +26,10 @@ end
 		options "--enablerepo=remi --enablerepo=remi-php56"
 	end
 end
+
+Template "/etc/php.ini" do
+    source "php.ini"
+    owner "vagrant"
+    group "vagrant"
+    mode 0644
+end
