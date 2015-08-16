@@ -322,9 +322,8 @@
 [share]
    path = /var/www/html
    writeable = true
-   browsable = yes
+   # Sambaのユーザーとグループを強制的に設定する
+   force user = vagrant
+   force group = vagrant
    guest ok = yes
    guest only = yes
-   create mode = 0777
-   directory mode = 0777
-   share modes = yes # 複数人が同一ファイルに同時アクセス時に警告
